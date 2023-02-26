@@ -1,0 +1,58 @@
+body {
+  background-color: rgb(91, 90, 70);
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+}
+
+.body .login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.body .login .email {
+  width: 50%;
+  height: 40px;
+  border: none;
+  outline: none;
+  box-shadow: inset 0px 0px 10px rgb(69, 69, 69);
+  padding-left: 20px;
+  color: gray;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-bottom: 12px;
+  margin-top: 30px;
+}
+
+.body .login .password {
+    width: 50%;
+    height: 40px;
+    border: none;
+    outline: none;
+    box-shadow: inset 0px 0px 10px rgb(69, 69, 69);
+    padding-left: 20px;
+    color: gray;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-bottom: 12px;
+    margin-top: 27px;
+}
+
+.body .login button {
+  display: none;
+}
+
+.body .login p {
+  width: 50%;
+  color: red;
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin: 0px;
+  display: none;
+}
